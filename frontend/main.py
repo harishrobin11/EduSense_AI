@@ -886,11 +886,10 @@ elif active == "tutor":
             res = requests.post(f"{API_BASE_URL}/tutor/chat", json={"student_id": int(tut_sid), "topic_id": int(tut_tid), "message": active_prompt}, timeout=8)
             if res.status_code in (200, 201):
                 td = res.json()
-                reply_text = td.get("tutor_response") or td.get("reply", "")
                 with st.chat_message("assistant"):
-                    st.markdown(reply_text)
+                    st.markdown(td["reply"])
                     st.caption(f"🤖 {td['provider']} · {td['model_used']} · Risk: **{td['struggle_risk_level'].upper()}**")
-                st.session_state["messages"].append({"role": "assistant", "content": reply_text})
+                st.session_state["messages"].append({"role": "assistant", "content": td["reply"]})
             else:
                 st.error(f"API Error: {res.text}")
         except Exception as e:
