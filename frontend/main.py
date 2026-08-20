@@ -653,7 +653,7 @@ if selected_page == "🏠  Home":
             {"Model": "🌲 Random Forest", "Accuracy": "65.43%", "ROC-AUC": "0.7018", "F1": "0.6357"},
             {"Model": "📈 Logistic Regression", "Accuracy": "65.11%", "ROC-AUC": "0.7153", "F1": "0.6374"},
         ])
-        st.dataframe(comp_data, use_container_width=True, hide_index=True)
+        st.dataframe(comp_data, width="stretch", hide_index=True)
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
@@ -789,7 +789,7 @@ elif selected_page == "📊  My Analytics":
                      "F1": defaults[k]["f1_score"], "ROC-AUC": defaults[k]["roc_auc"]}
                     for k in ["pytorch_nn", "random_forest", "logistic_regression"]
                 ])
-                st.dataframe(comp_df, use_container_width=True, hide_index=True)
+                st.dataframe(comp_df, width="stretch", hide_index=True)
         except Exception:
             st.markdown(
                 '<div class="info-banner">🔌 Start FastAPI backend to inspect live model evaluation benchmarks.</div>',
