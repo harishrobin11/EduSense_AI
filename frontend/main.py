@@ -393,15 +393,28 @@ st.markdown(
 
 
 # ─── Helpers ───────────────────────────────────────────────────────────────────
+@st.cache_data(ttl=10, show_spinner=False)
 def fetch_backend_health():
     """Fetch health status from FastAPI backend."""
     try:
-        resp = requests.get(f"{API_BASE_URL}/health", timeout=3)
+        resp = requests.get(f"{API_BASE_URL}/health", timeout=5)
         if resp.status_code == 200:
             return resp.json()
     except Exception:
         pass
     return None
+
+
+def format_api_error(res_or_exc, default_msg: str = "API request failed") -> str:
+    """Format API errors cleanly, handling HTML cold-start responses from cloud hosts gracefully."""
+    if isinstance(res_or_exc, Exception):
+        return f"{default_msg}: {res_or_exc}"
+    try:
+        if res_or_exc.headers.get("content-type", "").startswith("text/html") or res_or_exc.status_code in (502, 503, 504):
+            return f"⏳ Backend service is spinning up on Render (HTTP {res_or_exc.status_code}). Please wait ~20–30 seconds and refresh."
+        return f"API Error ({res_or_exc.status_code}): {res_or_exc.text}"
+    except Exception:
+        return f"{default_msg} (Status: {getattr(res_or_exc, 'status_code', 'Unknown')})"
 
 
 def page_header(title: str, desc: str):
@@ -457,12 +470,13 @@ with st.sidebar:
             unsafe_allow_html=True,
         )
     else:
+        sub_msg = "Start backend on :8000" if "localhost" in API_BASE_URL else "Waking up cloud API…"
         st.markdown(
             '<div class="sidebar-status">'
             '<div class="status-row">'
             '<span><span class="status-dot-off"></span><span style="color:#94A3B8;font-weight:500;">API</span></span>'
             '<span style="color:#EF4444;font-weight:600;">Offline</span></div>'
-            '<div style="font-size:0.72rem;color:#475569;margin-top:5px;">Start backend on :8000</div></div>',
+            f'<div style="font-size:0.72rem;color:#475569;margin-top:5px;">{sub_msg}</div></div>',
             unsafe_allow_html=True,
         )
 
@@ -828,9 +842,9 @@ elif active == "feedback":
                         for t in d["extracted_themes"]:
                             st.markdown(f"- 📌 **{t['theme'].title()}**: {t['description']}")
                 else:
-                    st.error(f"API Error: {res.text}")
+                    st.error(format_api_error(res, "Could not analyse feedback"))
             except Exception as e:
-                st.error(f"Could not analyse feedback: {e}")
+                st.error(format_api_error(e, "Could not analyse feedback"))
 
     with tab2:
         try:
@@ -892,9 +906,9 @@ elif active == "tutor":
                     st.caption(f"🤖 {td['provider']} · {td['model_used']} · Risk: **{td['struggle_risk_level'].upper()}**")
                 st.session_state["messages"].append({"role": "assistant", "content": reply_text})
             else:
-                st.error(f"API Error: {res.text}")
+                st.error(format_api_error(res, "Could not reach AI Tutor"))
         except Exception as e:
-            st.error(f"Could not reach AI Tutor: {e}")
+            st.error(format_api_error(e, "Could not reach AI Tutor"))
 
 
 # ═══════════════════════════════════════════════════════════════════════════════
