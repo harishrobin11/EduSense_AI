@@ -2,6 +2,7 @@
 
 import os
 import json
+import threading
 import requests
 import pandas as pd
 import streamlit as st
@@ -22,6 +23,18 @@ if not raw_api_url.startswith("http://") and not raw_api_url.startswith("https:/
         API_BASE_URL = f"https://{raw_api_url}"
 else:
     API_BASE_URL = raw_api_url
+
+# ─── Proactive Backend Auto-Waker ──────────────────────────────────────────────
+def _auto_wake_backend():
+    """Asynchronously ping cloud backend to wake up container immediately on app open."""
+    try:
+        requests.get(f"{API_BASE_URL}/health", timeout=12)
+    except Exception:
+        pass
+
+if "backend_woken" not in st.session_state:
+    st.session_state["backend_woken"] = True
+    threading.Thread(target=_auto_wake_backend, daemon=True).start()
 
 # ─── Session-based Navigation ──────────────────────────────────────────────────
 if "active_page" not in st.session_state:

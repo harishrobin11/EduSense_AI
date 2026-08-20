@@ -11,8 +11,6 @@ from sqlalchemy.orm import Session
 from app.core.logging import logger
 from app.db.models import User, Topic, QuizAttempt, LearningEvent
 
-from ml.models.pytorch_struggle_nn import PyTorchStrugglePredictor
-
 MODELS_DIR = os.path.join("ml", "models")
 ARTIFACTS_DIR = os.path.join("ml", "artifacts")
 MODEL_PATH = os.path.join(MODELS_DIR, "struggle_model_rf_v1.pkl")
@@ -47,7 +45,7 @@ class StrugglePredictionService:
         self._load_artifacts()
 
     def _load_artifacts(self):
-        """Load saved Random Forest model, scaler, and PyTorch NN artifacts."""
+        """Load saved Random Forest model and scaler artifacts."""
         try:
             if os.path.exists(MODEL_PATH):
                 self.model = joblib.load(MODEL_PATH)
@@ -57,9 +55,6 @@ class StrugglePredictionService:
             if os.path.exists(METRICS_PATH):
                 with open(METRICS_PATH, "r") as f:
                     self.metadata = json.load(f)
-            if os.path.exists(PYTORCH_MODEL_PATH) and os.path.exists(PYTORCH_SCALER_PATH):
-                self.pytorch_predictor = PyTorchStrugglePredictor(PYTORCH_MODEL_PATH, PYTORCH_SCALER_PATH)
-                logger.info("Loaded PyTorch StruggleNN predictor artifact")
         except Exception as e:
             logger.error(f"Error loading model artifacts: {e}")
 
@@ -103,10 +98,21 @@ class StrugglePredictionService:
             topic_difficulty_numeric,
         ]
 
-        if model_type == "pytorch_nn" and self.pytorch_predictor is not None:
-            feature_arr = np.array(features)
-            prob = float(self.pytorch_predictor.predict_proba(feature_arr)[0, 1])
-            model_ver = "pytorch_nn_v1.0"
+        if model_type == "pytorch_nn":
+            if self.pytorch_predictor is None and os.path.exists(PYTORCH_MODEL_PATH) and os.path.exists(PYTORCH_SCALER_PATH):
+                try:
+                    from ml.models.pytorch_struggle_nn import PyTorchStrugglePredictor
+                    self.pytorch_predictor = PyTorchStrugglePredictor(PYTORCH_MODEL_PATH, PYTORCH_SCALER_PATH)
+                except Exception as e:
+                    logger.error(f"Failed lazy loading PyTorch predictor: {e}")
+            if self.pytorch_predictor is not None:
+                feature_arr = np.array(features)
+                prob = float(self.pytorch_predictor.predict_proba(feature_arr)[0, 1])
+                model_ver = "pytorch_nn_v1.0"
+            else:
+                X_input = pd.DataFrame([features], columns=self.feature_names)
+                prob = float(self.model.predict_proba(X_input)[0, 1]) if self.model else 0.5
+                model_ver = self.metadata.get("version", "v1.0.0")
         else:
             if self.model is None:
                 self._load_artifacts()
