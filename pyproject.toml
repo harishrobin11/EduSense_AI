@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edusense-ai"
+version = "0.1.0"
+description = "AI-Powered Personalized Learning & Student Intelligence SaaS"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "EduSense AI Team" }
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+pythonpath = ["."]
+asyncio_mode = "auto"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

@@ -1,0 +1,26 @@
+{
+  "pytorch_nn": {
+    "model_name": "PyTorch Deep Learning MLP",
+    "accuracy": 0.6694,
+    "precision": 0.6844,
+    "recall": 0.5969,
+    "f1_score": 0.6377,
+    "roc_auc": 0.7193
+  },
+  "random_forest": {
+    "model_name": "Random Forest Classifier",
+    "accuracy": 0.6543,
+    "precision": 0.6535,
+    "recall": 0.6189,
+    "f1_score": 0.6357,
+    "roc_auc": 0.7018
+  },
+  "logistic_regression": {
+    "model_name": "Baseline Logistic Regression",
+    "accuracy": 0.6511,
+    "precision": 0.6459,
+    "recall": 0.6292,
+    "f1_score": 0.6374,
+    "roc_auc": 0.7153
+  }
+}

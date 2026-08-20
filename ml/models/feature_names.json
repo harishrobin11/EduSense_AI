@@ -1,0 +1,10 @@
+[
+  "recent_quiz_score",
+  "historical_topic_score",
+  "attempts_count",
+  "total_time_spent",
+  "prerequisite_completion_rate",
+  "score_trend",
+  "engagement_frequency",
+  "topic_difficulty_numeric"
+]

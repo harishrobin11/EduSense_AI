@@ -1,0 +1,30 @@
+{
+  "dataset_metadata": {
+    "num_students": 500,
+    "num_topics": 20,
+    "num_subjects": 4,
+    "total_quiz_attempts": 11169,
+    "total_learning_events": 11169
+  },
+  "target_distribution": {
+    "struggling_count": 5346,
+    "mastering_count": 5823,
+    "struggle_rate": 0.4786
+  },
+  "quiz_score_stats": {
+    "mean_score": 68.25,
+    "std_score": 20.28,
+    "min_score": 30.0,
+    "max_score": 100.0
+  },
+  "feature_correlations_with_target": {
+    "recent_quiz_score": -0.2174,
+    "historical_topic_score": -0.2589,
+    "attempts_count": 0.0733,
+    "total_time_spent": 0.2056,
+    "prerequisite_completion_rate": -0.207,
+    "score_trend": -0.0376,
+    "engagement_frequency": 0.1337,
+    "topic_difficulty_numeric": 0.2092
+  }
+}

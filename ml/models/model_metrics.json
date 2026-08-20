@@ -1,0 +1,61 @@
+{
+  "model_name": "RandomForestClassifier",
+  "version": "v1.0.0",
+  "trained_at": "2026-08-19 17:11:42",
+  "feature_names": [
+    "recent_quiz_score",
+    "historical_topic_score",
+    "attempts_count",
+    "total_time_spent",
+    "prerequisite_completion_rate",
+    "score_trend",
+    "engagement_frequency",
+    "topic_difficulty_numeric"
+  ],
+  "metrics_test": {
+    "accuracy": 0.6543,
+    "precision": 0.6535,
+    "recall": 0.6189,
+    "f1_score": 0.6357,
+    "roc_auc": 0.7018,
+    "brier_score": 0.2182,
+    "confusion_matrix": [
+      [
+        560,
+        254
+      ],
+      [
+        295,
+        479
+      ]
+    ]
+  },
+  "metrics_baseline_logistic_regression": {
+    "accuracy": 0.6511,
+    "precision": 0.6459,
+    "recall": 0.6292,
+    "f1_score": 0.6374,
+    "roc_auc": 0.7153,
+    "brier_score": 0.2146,
+    "confusion_matrix": [
+      [
+        547,
+        267
+      ],
+      [
+        287,
+        487
+      ]
+    ]
+  },
+  "feature_importances": {
+    "historical_topic_score": 0.2825,
+    "total_time_spent": 0.2229,
+    "recent_quiz_score": 0.1567,
+    "score_trend": 0.0961,
+    "topic_difficulty_numeric": 0.0961,
+    "engagement_frequency": 0.0668,
+    "prerequisite_completion_rate": 0.0585,
+    "attempts_count": 0.0205
+  }
+}

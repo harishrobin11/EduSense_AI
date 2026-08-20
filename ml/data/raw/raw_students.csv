@@ -1,0 +1,501 @@
+id,name,email,role,created_at,education_level,goals,preferred_difficulty,archetype
+1,Cameron Johnson,student_1@edusense.ai,student,2026-01-01 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,1
+2,Taylor Lopez,student_2@edusense.ai,student,2026-01-04 00:00:00,High School,Transition career into Data Science and AI,easy,3
+3,Alex Johnson,student_3@edusense.ai,student,2026-01-07 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,2
+4,Morgan Lopez,student_4@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+5,Dakota Jones,student_5@edusense.ai,student,2026-01-26 00:00:00,High School,Build portfolio projects for tech interviews,hard,0
+6,Pat Garcia,student_6@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,0
+7,Jordan Johnson,student_7@edusense.ai,student,2026-01-13 00:00:00,High School,Improve fundamental computer science and math skills,medium,0
+8,Dakota Jones,student_8@edusense.ai,student,2026-01-26 00:00:00,High School,Transition career into Data Science and AI,hard,2
+9,Jordan Anderson,student_9@edusense.ai,student,2026-01-13 00:00:00,High School,Improve fundamental computer science and math skills,hard,1
+10,Dakota Anderson,student_10@edusense.ai,student,2026-01-28 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,2
+11,Jordan Smith,student_11@edusense.ai,student,2026-01-22 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,0
+12,Skyler Brown,student_12@edusense.ai,student,2026-01-28 00:00:00,High School,Transition career into Data Science and AI,medium,3
+13,Riley Hernandez,student_13@edusense.ai,student,2026-01-27 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,2
+14,Chris Brown,student_14@edusense.ai,student,2026-01-22 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,0
+15,Cameron Williams,student_15@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,0
+16,Pat Jones,student_16@edusense.ai,student,2026-01-30 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,0
+17,Morgan Wilson,student_17@edusense.ai,student,2026-01-02 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+18,Jordan Brown,student_18@edusense.ai,student,2026-01-30 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,1
+19,Riley Miller,student_19@edusense.ai,student,2026-01-29 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+20,Taylor Brown,student_20@edusense.ai,student,2026-01-24 00:00:00,Graduate,Transition career into Data Science and AI,hard,1
+21,Pat Garcia,student_21@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+22,Reese Smith,student_22@edusense.ai,student,2026-01-28 00:00:00,High School,Build portfolio projects for tech interviews,hard,0
+23,Taylor Gonzalez,student_23@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,1
+24,Pat Martinez,student_24@edusense.ai,student,2026-01-15 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,1
+25,Jesse Johnson,student_25@edusense.ai,student,2026-01-22 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+26,Sam Miller,student_26@edusense.ai,student,2026-01-06 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,2
+27,Casey Lopez,student_27@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,0
+28,Sam Wilson,student_28@edusense.ai,student,2026-01-21 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,1
+29,Reese Williams,student_29@edusense.ai,student,2026-01-18 00:00:00,High School,Improve fundamental computer science and math skills,medium,1
+30,Alex Johnson,student_30@edusense.ai,student,2026-01-30 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,0
+31,Alex Brown,student_31@edusense.ai,student,2026-01-29 00:00:00,High School,Master Machine Learning and AI engineering,hard,1
+32,Riley Wilson,student_32@edusense.ai,student,2026-01-03 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,0
+33,Riley Rodriguez,student_33@edusense.ai,student,2026-01-06 00:00:00,Graduate,Transition career into Data Science and AI,easy,0
+34,Casey Rodriguez,student_34@edusense.ai,student,2026-01-25 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,3
+35,Cameron Hernandez,student_35@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,3
+36,Morgan Brown,student_36@edusense.ai,student,2026-01-03 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,2
+37,Avery Brown,student_37@edusense.ai,student,2026-01-19 00:00:00,Undergraduate,Master Machine Learning and AI engineering,easy,1
+38,Jesse Hernandez,student_38@edusense.ai,student,2026-01-02 00:00:00,Undergraduate,Master Machine Learning and AI engineering,easy,0
+39,Skyler Garcia,student_39@edusense.ai,student,2026-01-03 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,2
+40,Riley Brown,student_40@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+41,Reese Davis,student_41@edusense.ai,student,2026-01-26 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,0
+42,Jordan Hernandez,student_42@edusense.ai,student,2026-01-14 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+43,Riley Wilson,student_43@edusense.ai,student,2026-01-24 00:00:00,High School,Master Machine Learning and AI engineering,easy,0
+44,Pat Lopez,student_44@edusense.ai,student,2026-01-11 00:00:00,High School,Build portfolio projects for tech interviews,easy,3
+45,Morgan Rodriguez,student_45@edusense.ai,student,2026-01-15 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+46,Sam Davis,student_46@edusense.ai,student,2026-01-08 00:00:00,High School,Transition career into Data Science and AI,hard,2
+47,Jordan Smith,student_47@edusense.ai,student,2026-01-21 00:00:00,High School,Master Machine Learning and AI engineering,easy,1
+48,Taylor Miller,student_48@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+49,Casey Smith,student_49@edusense.ai,student,2026-01-06 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,1
+50,Sam Anderson,student_50@edusense.ai,student,2026-01-26 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,0
+51,Jesse Lopez,student_51@edusense.ai,student,2026-01-26 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,3
+52,Sam Brown,student_52@edusense.ai,student,2026-01-31 00:00:00,High School,Master Machine Learning and AI engineering,hard,2
+53,Chris Smith,student_53@edusense.ai,student,2026-01-02 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,3
+54,Avery Johnson,student_54@edusense.ai,student,2026-01-28 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,2
+55,Jordan Hernandez,student_55@edusense.ai,student,2026-01-28 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+56,Casey Martinez,student_56@edusense.ai,student,2026-01-08 00:00:00,High School,Master Machine Learning and AI engineering,medium,3
+57,Cameron Martinez,student_57@edusense.ai,student,2026-01-19 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,0
+58,Cameron Lopez,student_58@edusense.ai,student,2026-01-11 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,0
+59,Taylor Hernandez,student_59@edusense.ai,student,2026-01-21 00:00:00,Graduate,Transition career into Data Science and AI,medium,0
+60,Casey Gonzalez,student_60@edusense.ai,student,2026-01-30 00:00:00,High School,Master Machine Learning and AI engineering,medium,1
+61,Dakota Martinez,student_61@edusense.ai,student,2026-01-04 00:00:00,High School,Build portfolio projects for tech interviews,hard,1
+62,Sam Williams,student_62@edusense.ai,student,2026-01-30 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,1
+63,Chris Jones,student_63@edusense.ai,student,2026-01-06 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+64,Reese Hernandez,student_64@edusense.ai,student,2026-01-17 00:00:00,High School,Improve fundamental computer science and math skills,hard,1
+65,Jordan Anderson,student_65@edusense.ai,student,2026-01-05 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,1
+66,Jesse Rodriguez,student_66@edusense.ai,student,2026-01-05 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+67,Morgan Lopez,student_67@edusense.ai,student,2026-01-11 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,0
+68,Riley Jones,student_68@edusense.ai,student,2026-01-29 00:00:00,High School,Master Machine Learning and AI engineering,hard,2
+69,Pat Wilson,student_69@edusense.ai,student,2026-01-09 00:00:00,High School,Master Machine Learning and AI engineering,medium,0
+70,Reese Williams,student_70@edusense.ai,student,2026-01-21 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,3
+71,Riley Rodriguez,student_71@edusense.ai,student,2026-01-23 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,2
+72,Jordan Anderson,student_72@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,0
+73,Dakota Rodriguez,student_73@edusense.ai,student,2026-01-05 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,0
+74,Sam Garcia,student_74@edusense.ai,student,2026-01-29 00:00:00,High School,Improve fundamental computer science and math skills,easy,2
+75,Cameron Brown,student_75@edusense.ai,student,2026-01-22 00:00:00,High School,Improve fundamental computer science and math skills,hard,2
+76,Casey Wilson,student_76@edusense.ai,student,2026-01-14 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+77,Reese Gonzalez,student_77@edusense.ai,student,2026-01-06 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,2
+78,Jesse Anderson,student_78@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,0
+79,Taylor Gonzalez,student_79@edusense.ai,student,2026-01-23 00:00:00,High School,Transition career into Data Science and AI,easy,1
+80,Skyler Davis,student_80@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,0
+81,Sam Wilson,student_81@edusense.ai,student,2026-01-26 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+82,Cameron Brown,student_82@edusense.ai,student,2026-01-13 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+83,Reese Jones,student_83@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,1
+84,Jordan Anderson,student_84@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,0
+85,Jordan Martinez,student_85@edusense.ai,student,2026-01-14 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+86,Dakota Rodriguez,student_86@edusense.ai,student,2026-01-04 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+87,Alex Lopez,student_87@edusense.ai,student,2026-01-14 00:00:00,High School,Build portfolio projects for tech interviews,medium,2
+88,Pat Johnson,student_88@edusense.ai,student,2026-01-31 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+89,Skyler Johnson,student_89@edusense.ai,student,2026-01-24 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,2
+90,Pat Garcia,student_90@edusense.ai,student,2026-01-13 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,1
+91,Pat Hernandez,student_91@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,0
+92,Dakota Jones,student_92@edusense.ai,student,2026-01-13 00:00:00,High School,Improve fundamental computer science and math skills,medium,2
+93,Morgan Miller,student_93@edusense.ai,student,2026-01-26 00:00:00,Graduate,Transition career into Data Science and AI,medium,2
+94,Riley Hernandez,student_94@edusense.ai,student,2026-01-07 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,1
+95,Jordan Jones,student_95@edusense.ai,student,2026-01-17 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,2
+96,Cameron Jones,student_96@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+97,Alex Brown,student_97@edusense.ai,student,2026-01-16 00:00:00,High School,Transition career into Data Science and AI,medium,1
+98,Casey Hernandez,student_98@edusense.ai,student,2026-01-19 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+99,Pat Brown,student_99@edusense.ai,student,2026-01-05 00:00:00,High School,Master Machine Learning and AI engineering,medium,0
+100,Morgan Williams,student_100@edusense.ai,student,2026-01-26 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,0
+101,Morgan Anderson,student_101@edusense.ai,student,2026-01-28 00:00:00,High School,Transition career into Data Science and AI,easy,0
+102,Reese Davis,student_102@edusense.ai,student,2026-01-22 00:00:00,Graduate,Transition career into Data Science and AI,hard,1
+103,Skyler Lopez,student_103@edusense.ai,student,2026-01-29 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,1
+104,Jesse Wilson,student_104@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,1
+105,Skyler Hernandez,student_105@edusense.ai,student,2026-01-09 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,3
+106,Riley Johnson,student_106@edusense.ai,student,2026-01-23 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,0
+107,Chris Garcia,student_107@edusense.ai,student,2026-01-29 00:00:00,High School,Build portfolio projects for tech interviews,easy,1
+108,Morgan Miller,student_108@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+109,Pat Miller,student_109@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+110,Morgan Wilson,student_110@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,0
+111,Pat Davis,student_111@edusense.ai,student,2026-01-01 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+112,Skyler Anderson,student_112@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,0
+113,Morgan Jones,student_113@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,3
+114,Chris Hernandez,student_114@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,2
+115,Casey Williams,student_115@edusense.ai,student,2026-01-20 00:00:00,High School,Transition career into Data Science and AI,hard,1
+116,Dakota Hernandez,student_116@edusense.ai,student,2026-01-01 00:00:00,High School,Transition career into Data Science and AI,easy,2
+117,Skyler Davis,student_117@edusense.ai,student,2026-01-06 00:00:00,High School,Improve fundamental computer science and math skills,medium,2
+118,Chris Brown,student_118@edusense.ai,student,2026-01-15 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,0
+119,Sam Gonzalez,student_119@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,2
+120,Riley Smith,student_120@edusense.ai,student,2026-01-24 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+121,Cameron Johnson,student_121@edusense.ai,student,2026-01-25 00:00:00,High School,Master Machine Learning and AI engineering,easy,2
+122,Morgan Wilson,student_122@edusense.ai,student,2026-01-01 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+123,Riley Hernandez,student_123@edusense.ai,student,2026-01-04 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,1
+124,Sam Gonzalez,student_124@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Master Machine Learning and AI engineering,easy,0
+125,Sam Johnson,student_125@edusense.ai,student,2026-01-19 00:00:00,High School,Improve fundamental computer science and math skills,hard,0
+126,Cameron Anderson,student_126@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,1
+127,Morgan Johnson,student_127@edusense.ai,student,2026-01-19 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,2
+128,Reese Jones,student_128@edusense.ai,student,2026-01-28 00:00:00,High School,Master Machine Learning and AI engineering,medium,2
+129,Avery Miller,student_129@edusense.ai,student,2026-01-22 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,0
+130,Cameron Garcia,student_130@edusense.ai,student,2026-01-01 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,1
+131,Pat Garcia,student_131@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+132,Taylor Lopez,student_132@edusense.ai,student,2026-01-17 00:00:00,Graduate,Transition career into Data Science and AI,medium,0
+133,Pat Wilson,student_133@edusense.ai,student,2026-01-24 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,0
+134,Skyler Anderson,student_134@edusense.ai,student,2026-01-03 00:00:00,Graduate,Transition career into Data Science and AI,easy,1
+135,Reese Davis,student_135@edusense.ai,student,2026-01-19 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,3
+136,Riley Wilson,student_136@edusense.ai,student,2026-01-11 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+137,Chris Gonzalez,student_137@edusense.ai,student,2026-01-09 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+138,Jesse Anderson,student_138@edusense.ai,student,2026-01-09 00:00:00,High School,Build portfolio projects for tech interviews,easy,2
+139,Morgan Lopez,student_139@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,1
+140,Riley Hernandez,student_140@edusense.ai,student,2026-01-23 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,3
+141,Jordan Jones,student_141@edusense.ai,student,2026-01-08 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,3
+142,Cameron Martinez,student_142@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,1
+143,Jesse Rodriguez,student_143@edusense.ai,student,2026-01-11 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+144,Sam Jones,student_144@edusense.ai,student,2026-01-08 00:00:00,High School,Build portfolio projects for tech interviews,medium,1
+145,Jordan Lopez,student_145@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+146,Jesse Davis,student_146@edusense.ai,student,2026-01-09 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,0
+147,Sam Brown,student_147@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,1
+148,Jesse Rodriguez,student_148@edusense.ai,student,2026-01-05 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,1
+149,Avery Jones,student_149@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,0
+150,Skyler Smith,student_150@edusense.ai,student,2026-01-19 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+151,Riley Garcia,student_151@edusense.ai,student,2026-01-06 00:00:00,High School,Improve fundamental computer science and math skills,medium,3
+152,Jordan Wilson,student_152@edusense.ai,student,2026-01-03 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+153,Dakota Hernandez,student_153@edusense.ai,student,2026-01-22 00:00:00,High School,Build portfolio projects for tech interviews,easy,0
+154,Reese Martinez,student_154@edusense.ai,student,2026-01-31 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,1
+155,Jordan Rodriguez,student_155@edusense.ai,student,2026-01-25 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,3
+156,Pat Davis,student_156@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,0
+157,Pat Jones,student_157@edusense.ai,student,2026-01-19 00:00:00,High School,Master Machine Learning and AI engineering,easy,2
+158,Cameron Brown,student_158@edusense.ai,student,2026-01-09 00:00:00,High School,Build portfolio projects for tech interviews,easy,2
+159,Taylor Rodriguez,student_159@edusense.ai,student,2026-01-03 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,0
+160,Riley Lopez,student_160@edusense.ai,student,2026-01-20 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,2
+161,Morgan Jones,student_161@edusense.ai,student,2026-01-23 00:00:00,Graduate,Transition career into Data Science and AI,easy,1
+162,Cameron Brown,student_162@edusense.ai,student,2026-01-30 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+163,Jordan Rodriguez,student_163@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,1
+164,Jordan Smith,student_164@edusense.ai,student,2026-01-06 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+165,Jordan Davis,student_165@edusense.ai,student,2026-01-23 00:00:00,Graduate,Transition career into Data Science and AI,medium,0
+166,Avery Rodriguez,student_166@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,2
+167,Alex Anderson,student_167@edusense.ai,student,2026-01-14 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+168,Jordan Brown,student_168@edusense.ai,student,2026-01-31 00:00:00,High School,Improve fundamental computer science and math skills,hard,0
+169,Alex Gonzalez,student_169@edusense.ai,student,2026-01-25 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,0
+170,Cameron Davis,student_170@edusense.ai,student,2026-01-30 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,1
+171,Pat Hernandez,student_171@edusense.ai,student,2026-01-27 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,2
+172,Chris Miller,student_172@edusense.ai,student,2026-01-11 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,0
+173,Chris Miller,student_173@edusense.ai,student,2026-01-23 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,1
+174,Pat Wilson,student_174@edusense.ai,student,2026-01-25 00:00:00,High School,Transition career into Data Science and AI,easy,0
+175,Chris Jones,student_175@edusense.ai,student,2026-01-11 00:00:00,High School,Transition career into Data Science and AI,hard,1
+176,Skyler Smith,student_176@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+177,Morgan Rodriguez,student_177@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,2
+178,Morgan Jones,student_178@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,1
+179,Casey Lopez,student_179@edusense.ai,student,2026-01-16 00:00:00,High School,Master Machine Learning and AI engineering,hard,3
+180,Dakota Gonzalez,student_180@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,0
+181,Alex Rodriguez,student_181@edusense.ai,student,2026-01-14 00:00:00,High School,Build portfolio projects for tech interviews,easy,1
+182,Riley Johnson,student_182@edusense.ai,student,2026-01-21 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,0
+183,Sam Rodriguez,student_183@edusense.ai,student,2026-01-23 00:00:00,Graduate,Transition career into Data Science and AI,medium,3
+184,Riley Brown,student_184@edusense.ai,student,2026-01-15 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,2
+185,Casey Martinez,student_185@edusense.ai,student,2026-01-17 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,1
+186,Reese Gonzalez,student_186@edusense.ai,student,2026-01-28 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+187,Sam Wilson,student_187@edusense.ai,student,2026-01-01 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,2
+188,Dakota Hernandez,student_188@edusense.ai,student,2026-01-16 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,1
+189,Riley Garcia,student_189@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+190,Skyler Brown,student_190@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,0
+191,Skyler Gonzalez,student_191@edusense.ai,student,2026-01-14 00:00:00,High School,Improve fundamental computer science and math skills,hard,0
+192,Riley Lopez,student_192@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,2
+193,Reese Wilson,student_193@edusense.ai,student,2026-01-21 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,3
+194,Taylor Rodriguez,student_194@edusense.ai,student,2026-01-31 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,1
+195,Jordan Rodriguez,student_195@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,1
+196,Taylor Miller,student_196@edusense.ai,student,2026-01-28 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,1
+197,Reese Jones,student_197@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,2
+198,Skyler Hernandez,student_198@edusense.ai,student,2026-01-28 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+199,Jesse Anderson,student_199@edusense.ai,student,2026-01-25 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,2
+200,Jordan Brown,student_200@edusense.ai,student,2026-01-21 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,2
+201,Jordan Miller,student_201@edusense.ai,student,2026-01-04 00:00:00,High School,Transition career into Data Science and AI,easy,1
+202,Jesse Jones,student_202@edusense.ai,student,2026-01-29 00:00:00,High School,Master Machine Learning and AI engineering,medium,0
+203,Reese Smith,student_203@edusense.ai,student,2026-01-10 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,0
+204,Taylor Brown,student_204@edusense.ai,student,2026-01-17 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,2
+205,Taylor Johnson,student_205@edusense.ai,student,2026-01-20 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+206,Casey Martinez,student_206@edusense.ai,student,2026-01-05 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,0
+207,Sam Davis,student_207@edusense.ai,student,2026-01-09 00:00:00,High School,Transition career into Data Science and AI,medium,0
+208,Cameron Rodriguez,student_208@edusense.ai,student,2026-01-06 00:00:00,High School,Transition career into Data Science and AI,medium,2
+209,Dakota Jones,student_209@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,0
+210,Skyler Jones,student_210@edusense.ai,student,2026-01-07 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+211,Morgan Miller,student_211@edusense.ai,student,2026-01-19 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+212,Sam Smith,student_212@edusense.ai,student,2026-01-27 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,2
+213,Dakota Wilson,student_213@edusense.ai,student,2026-01-22 00:00:00,High School,Transition career into Data Science and AI,medium,2
+214,Reese Gonzalez,student_214@edusense.ai,student,2026-01-08 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,0
+215,Morgan Martinez,student_215@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,2
+216,Cameron Smith,student_216@edusense.ai,student,2026-01-10 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,0
+217,Chris Lopez,student_217@edusense.ai,student,2026-01-05 00:00:00,High School,Improve fundamental computer science and math skills,medium,1
+218,Jesse Miller,student_218@edusense.ai,student,2026-01-06 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,2
+219,Casey Garcia,student_219@edusense.ai,student,2026-01-17 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+220,Casey Wilson,student_220@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+221,Skyler Garcia,student_221@edusense.ai,student,2026-01-26 00:00:00,High School,Transition career into Data Science and AI,easy,2
+222,Taylor Gonzalez,student_222@edusense.ai,student,2026-01-31 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,1
+223,Chris Johnson,student_223@edusense.ai,student,2026-01-26 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,0
+224,Avery Johnson,student_224@edusense.ai,student,2026-01-15 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+225,Pat Wilson,student_225@edusense.ai,student,2026-01-21 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,1
+226,Morgan Davis,student_226@edusense.ai,student,2026-01-01 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,0
+227,Jordan Hernandez,student_227@edusense.ai,student,2026-01-27 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,3
+228,Pat Johnson,student_228@edusense.ai,student,2026-01-05 00:00:00,High School,Master Machine Learning and AI engineering,medium,1
+229,Riley Johnson,student_229@edusense.ai,student,2026-01-04 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,2
+230,Riley Garcia,student_230@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,1
+231,Cameron Johnson,student_231@edusense.ai,student,2026-01-27 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,2
+232,Alex Lopez,student_232@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+233,Morgan Wilson,student_233@edusense.ai,student,2026-01-12 00:00:00,High School,Improve fundamental computer science and math skills,hard,1
+234,Casey Hernandez,student_234@edusense.ai,student,2026-01-12 00:00:00,High School,Transition career into Data Science and AI,medium,1
+235,Morgan Johnson,student_235@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,0
+236,Morgan Hernandez,student_236@edusense.ai,student,2026-01-21 00:00:00,High School,Master Machine Learning and AI engineering,medium,2
+237,Morgan Williams,student_237@edusense.ai,student,2026-01-26 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,1
+238,Morgan Martinez,student_238@edusense.ai,student,2026-01-07 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,0
+239,Reese Anderson,student_239@edusense.ai,student,2026-01-20 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+240,Taylor Rodriguez,student_240@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,0
+241,Skyler Smith,student_241@edusense.ai,student,2026-01-05 00:00:00,High School,Improve fundamental computer science and math skills,easy,3
+242,Dakota Garcia,student_242@edusense.ai,student,2026-01-01 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,3
+243,Taylor Lopez,student_243@edusense.ai,student,2026-01-14 00:00:00,High School,Master Machine Learning and AI engineering,medium,3
+244,Riley Gonzalez,student_244@edusense.ai,student,2026-01-12 00:00:00,High School,Transition career into Data Science and AI,hard,1
+245,Morgan Martinez,student_245@edusense.ai,student,2026-01-02 00:00:00,Graduate,Transition career into Data Science and AI,hard,0
+246,Alex Smith,student_246@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,3
+247,Jordan Davis,student_247@edusense.ai,student,2026-01-23 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,1
+248,Chris Martinez,student_248@edusense.ai,student,2026-01-05 00:00:00,High School,Build portfolio projects for tech interviews,medium,3
+249,Dakota Hernandez,student_249@edusense.ai,student,2026-01-19 00:00:00,Graduate,Transition career into Data Science and AI,hard,3
+250,Avery Jones,student_250@edusense.ai,student,2026-01-15 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,2
+251,Jordan Wilson,student_251@edusense.ai,student,2026-01-21 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+252,Casey Brown,student_252@edusense.ai,student,2026-01-14 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+253,Pat Lopez,student_253@edusense.ai,student,2026-01-04 00:00:00,Graduate,Transition career into Data Science and AI,medium,2
+254,Cameron Jones,student_254@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+255,Jordan Wilson,student_255@edusense.ai,student,2026-01-03 00:00:00,High School,Transition career into Data Science and AI,easy,0
+256,Jesse Lopez,student_256@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,1
+257,Avery Rodriguez,student_257@edusense.ai,student,2026-01-11 00:00:00,High School,Transition career into Data Science and AI,medium,3
+258,Skyler Hernandez,student_258@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,2
+259,Dakota Jones,student_259@edusense.ai,student,2026-01-12 00:00:00,High School,Build portfolio projects for tech interviews,easy,1
+260,Cameron Davis,student_260@edusense.ai,student,2026-01-08 00:00:00,High School,Improve fundamental computer science and math skills,hard,0
+261,Chris Johnson,student_261@edusense.ai,student,2026-01-25 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+262,Skyler Rodriguez,student_262@edusense.ai,student,2026-01-25 00:00:00,High School,Improve fundamental computer science and math skills,easy,3
+263,Taylor Jones,student_263@edusense.ai,student,2026-01-23 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,0
+264,Alex Williams,student_264@edusense.ai,student,2026-01-28 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+265,Taylor Lopez,student_265@edusense.ai,student,2026-01-21 00:00:00,High School,Master Machine Learning and AI engineering,hard,2
+266,Avery Brown,student_266@edusense.ai,student,2026-01-13 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,2
+267,Taylor Garcia,student_267@edusense.ai,student,2026-01-10 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,2
+268,Taylor Williams,student_268@edusense.ai,student,2026-01-25 00:00:00,High School,Master Machine Learning and AI engineering,medium,2
+269,Riley Hernandez,student_269@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+270,Sam Brown,student_270@edusense.ai,student,2026-01-25 00:00:00,High School,Improve fundamental computer science and math skills,medium,1
+271,Jordan Jones,student_271@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,2
+272,Morgan Miller,student_272@edusense.ai,student,2026-01-20 00:00:00,High School,Master Machine Learning and AI engineering,easy,2
+273,Sam Brown,student_273@edusense.ai,student,2026-01-25 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,2
+274,Chris Johnson,student_274@edusense.ai,student,2026-01-01 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,3
+275,Taylor Miller,student_275@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,1
+276,Pat Wilson,student_276@edusense.ai,student,2026-01-24 00:00:00,High School,Transition career into Data Science and AI,easy,1
+277,Riley Anderson,student_277@edusense.ai,student,2026-01-03 00:00:00,Graduate,Transition career into Data Science and AI,hard,2
+278,Pat Lopez,student_278@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,1
+279,Pat Smith,student_279@edusense.ai,student,2026-01-31 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,2
+280,Riley Wilson,student_280@edusense.ai,student,2026-01-23 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,2
+281,Skyler Johnson,student_281@edusense.ai,student,2026-01-08 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,2
+282,Jordan Miller,student_282@edusense.ai,student,2026-01-28 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+283,Chris Gonzalez,student_283@edusense.ai,student,2026-01-06 00:00:00,High School,Master Machine Learning and AI engineering,hard,1
+284,Avery Brown,student_284@edusense.ai,student,2026-01-29 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,0
+285,Skyler Hernandez,student_285@edusense.ai,student,2026-01-27 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+286,Taylor Jones,student_286@edusense.ai,student,2026-01-07 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,0
+287,Jordan Williams,student_287@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,1
+288,Reese Martinez,student_288@edusense.ai,student,2026-01-15 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+289,Riley Johnson,student_289@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,1
+290,Dakota Smith,student_290@edusense.ai,student,2026-01-12 00:00:00,High School,Improve fundamental computer science and math skills,medium,1
+291,Riley Smith,student_291@edusense.ai,student,2026-01-02 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,0
+292,Cameron Wilson,student_292@edusense.ai,student,2026-01-28 00:00:00,High School,Transition career into Data Science and AI,medium,0
+293,Dakota Rodriguez,student_293@edusense.ai,student,2026-01-31 00:00:00,High School,Transition career into Data Science and AI,hard,2
+294,Cameron Brown,student_294@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,1
+295,Riley Johnson,student_295@edusense.ai,student,2026-01-26 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,0
+296,Cameron Williams,student_296@edusense.ai,student,2026-01-02 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+297,Avery Rodriguez,student_297@edusense.ai,student,2026-01-20 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,2
+298,Casey Jones,student_298@edusense.ai,student,2026-01-13 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,0
+299,Dakota Smith,student_299@edusense.ai,student,2026-01-26 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,1
+300,Jordan Rodriguez,student_300@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,0
+301,Jesse Wilson,student_301@edusense.ai,student,2026-01-22 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,0
+302,Dakota Hernandez,student_302@edusense.ai,student,2026-01-05 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+303,Jesse Hernandez,student_303@edusense.ai,student,2026-01-13 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,1
+304,Avery Miller,student_304@edusense.ai,student,2026-01-21 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,1
+305,Jesse Wilson,student_305@edusense.ai,student,2026-01-31 00:00:00,High School,Transition career into Data Science and AI,hard,2
+306,Chris Smith,student_306@edusense.ai,student,2026-01-12 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,3
+307,Chris Gonzalez,student_307@edusense.ai,student,2026-01-16 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+308,Taylor Johnson,student_308@edusense.ai,student,2026-01-10 00:00:00,High School,Master Machine Learning and AI engineering,hard,1
+309,Chris Anderson,student_309@edusense.ai,student,2026-01-25 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,2
+310,Taylor Williams,student_310@edusense.ai,student,2026-01-27 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+311,Pat Garcia,student_311@edusense.ai,student,2026-01-22 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,1
+312,Sam Gonzalez,student_312@edusense.ai,student,2026-01-24 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,0
+313,Morgan Jones,student_313@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,0
+314,Cameron Martinez,student_314@edusense.ai,student,2026-01-15 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,3
+315,Avery Rodriguez,student_315@edusense.ai,student,2026-01-14 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,2
+316,Taylor Wilson,student_316@edusense.ai,student,2026-01-09 00:00:00,High School,Transition career into Data Science and AI,medium,2
+317,Avery Anderson,student_317@edusense.ai,student,2026-01-04 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+318,Reese Williams,student_318@edusense.ai,student,2026-01-09 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,0
+319,Jordan Anderson,student_319@edusense.ai,student,2026-01-08 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,0
+320,Pat Smith,student_320@edusense.ai,student,2026-01-13 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+321,Jordan Garcia,student_321@edusense.ai,student,2026-01-08 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+322,Skyler Lopez,student_322@edusense.ai,student,2026-01-21 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,2
+323,Alex Jones,student_323@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,2
+324,Riley Davis,student_324@edusense.ai,student,2026-01-20 00:00:00,High School,Master Machine Learning and AI engineering,easy,1
+325,Sam Brown,student_325@edusense.ai,student,2026-01-27 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,3
+326,Reese Jones,student_326@edusense.ai,student,2026-01-08 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,2
+327,Morgan Miller,student_327@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,1
+328,Skyler Anderson,student_328@edusense.ai,student,2026-01-16 00:00:00,High School,Build portfolio projects for tech interviews,hard,1
+329,Taylor Jones,student_329@edusense.ai,student,2026-01-14 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+330,Dakota Miller,student_330@edusense.ai,student,2026-01-06 00:00:00,High School,Improve fundamental computer science and math skills,easy,0
+331,Avery Rodriguez,student_331@edusense.ai,student,2026-01-17 00:00:00,High School,Transition career into Data Science and AI,medium,1
+332,Alex Hernandez,student_332@edusense.ai,student,2026-01-13 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,2
+333,Alex Garcia,student_333@edusense.ai,student,2026-01-26 00:00:00,High School,Improve fundamental computer science and math skills,easy,0
+334,Jesse Hernandez,student_334@edusense.ai,student,2026-01-21 00:00:00,High School,Improve fundamental computer science and math skills,easy,0
+335,Alex Garcia,student_335@edusense.ai,student,2026-01-18 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,0
+336,Riley Lopez,student_336@edusense.ai,student,2026-01-16 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,0
+337,Jesse Gonzalez,student_337@edusense.ai,student,2026-01-31 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,2
+338,Morgan Smith,student_338@edusense.ai,student,2026-01-26 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,2
+339,Casey Jones,student_339@edusense.ai,student,2026-01-17 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+340,Alex Gonzalez,student_340@edusense.ai,student,2026-01-21 00:00:00,Undergraduate,Improve fundamental computer science and math skills,medium,0
+341,Skyler Gonzalez,student_341@edusense.ai,student,2026-01-02 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+342,Reese Garcia,student_342@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+343,Chris Williams,student_343@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,0
+344,Sam Gonzalez,student_344@edusense.ai,student,2026-01-03 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,1
+345,Dakota Wilson,student_345@edusense.ai,student,2026-01-06 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+346,Jordan Garcia,student_346@edusense.ai,student,2026-01-22 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+347,Dakota Lopez,student_347@edusense.ai,student,2026-01-14 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+348,Riley Smith,student_348@edusense.ai,student,2026-01-24 00:00:00,Graduate,Transition career into Data Science and AI,medium,0
+349,Cameron Gonzalez,student_349@edusense.ai,student,2026-01-31 00:00:00,High School,Master Machine Learning and AI engineering,hard,1
+350,Cameron Miller,student_350@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Master Machine Learning and AI engineering,easy,1
+351,Skyler Martinez,student_351@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,1
+352,Jordan Brown,student_352@edusense.ai,student,2026-01-25 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,2
+353,Dakota Smith,student_353@edusense.ai,student,2026-01-20 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,2
+354,Chris Davis,student_354@edusense.ai,student,2026-01-25 00:00:00,High School,Build portfolio projects for tech interviews,hard,0
+355,Chris Miller,student_355@edusense.ai,student,2026-01-11 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,0
+356,Alex Lopez,student_356@edusense.ai,student,2026-01-06 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,1
+357,Jordan Jones,student_357@edusense.ai,student,2026-01-25 00:00:00,Graduate,Transition career into Data Science and AI,easy,0
+358,Dakota Jones,student_358@edusense.ai,student,2026-01-23 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,1
+359,Taylor Wilson,student_359@edusense.ai,student,2026-01-03 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,3
+360,Riley Johnson,student_360@edusense.ai,student,2026-01-26 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,1
+361,Jordan Rodriguez,student_361@edusense.ai,student,2026-01-18 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+362,Jesse Lopez,student_362@edusense.ai,student,2026-01-30 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,1
+363,Morgan Johnson,student_363@edusense.ai,student,2026-01-07 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,1
+364,Alex Garcia,student_364@edusense.ai,student,2026-01-18 00:00:00,Graduate,Transition career into Data Science and AI,hard,1
+365,Taylor Martinez,student_365@edusense.ai,student,2026-01-29 00:00:00,High School,Master Machine Learning and AI engineering,medium,3
+366,Pat Lopez,student_366@edusense.ai,student,2026-01-24 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+367,Skyler Martinez,student_367@edusense.ai,student,2026-01-03 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,3
+368,Jordan Davis,student_368@edusense.ai,student,2026-01-15 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,3
+369,Cameron Martinez,student_369@edusense.ai,student,2026-01-06 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,0
+370,Casey Wilson,student_370@edusense.ai,student,2026-01-02 00:00:00,High School,Build portfolio projects for tech interviews,medium,0
+371,Taylor Williams,student_371@edusense.ai,student,2026-01-11 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,0
+372,Casey Jones,student_372@edusense.ai,student,2026-01-28 00:00:00,High School,Improve fundamental computer science and math skills,easy,0
+373,Cameron Rodriguez,student_373@edusense.ai,student,2026-01-09 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,0
+374,Avery Johnson,student_374@edusense.ai,student,2026-01-17 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+375,Cameron Martinez,student_375@edusense.ai,student,2026-01-24 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,0
+376,Jordan Smith,student_376@edusense.ai,student,2026-01-31 00:00:00,Graduate,Build portfolio projects for tech interviews,hard,1
+377,Pat Martinez,student_377@edusense.ai,student,2026-01-21 00:00:00,High School,Transition career into Data Science and AI,hard,2
+378,Avery Jones,student_378@edusense.ai,student,2026-01-21 00:00:00,Graduate,Transition career into Data Science and AI,easy,0
+379,Reese Gonzalez,student_379@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,2
+380,Jordan Lopez,student_380@edusense.ai,student,2026-01-02 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+381,Riley Davis,student_381@edusense.ai,student,2026-01-07 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,0
+382,Skyler Lopez,student_382@edusense.ai,student,2026-01-11 00:00:00,Graduate,Transition career into Data Science and AI,easy,2
+383,Reese Garcia,student_383@edusense.ai,student,2026-01-17 00:00:00,High School,Improve fundamental computer science and math skills,easy,1
+384,Riley Johnson,student_384@edusense.ai,student,2026-01-09 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,2
+385,Jordan Smith,student_385@edusense.ai,student,2026-01-10 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,2
+386,Skyler Anderson,student_386@edusense.ai,student,2026-01-06 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,2
+387,Reese Williams,student_387@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+388,Riley Smith,student_388@edusense.ai,student,2026-01-03 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+389,Morgan Martinez,student_389@edusense.ai,student,2026-01-12 00:00:00,High School,Master Machine Learning and AI engineering,medium,2
+390,Riley Martinez,student_390@edusense.ai,student,2026-01-29 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+391,Alex Wilson,student_391@edusense.ai,student,2026-01-04 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,3
+392,Jesse Garcia,student_392@edusense.ai,student,2026-01-25 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,1
+393,Pat Smith,student_393@edusense.ai,student,2026-01-19 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,1
+394,Sam Johnson,student_394@edusense.ai,student,2026-01-13 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,2
+395,Cameron Martinez,student_395@edusense.ai,student,2026-01-04 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,1
+396,Chris Gonzalez,student_396@edusense.ai,student,2026-01-11 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,3
+397,Dakota Rodriguez,student_397@edusense.ai,student,2026-01-13 00:00:00,High School,Master Machine Learning and AI engineering,easy,2
+398,Taylor Lopez,student_398@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,1
+399,Dakota Anderson,student_399@edusense.ai,student,2026-01-17 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,2
+400,Chris Williams,student_400@edusense.ai,student,2026-01-13 00:00:00,Graduate,Improve fundamental computer science and math skills,hard,2
+401,Skyler Rodriguez,student_401@edusense.ai,student,2026-01-18 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,0
+402,Skyler Smith,student_402@edusense.ai,student,2026-01-12 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,3
+403,Dakota Jones,student_403@edusense.ai,student,2026-01-26 00:00:00,High School,Transition career into Data Science and AI,medium,1
+404,Cameron Gonzalez,student_404@edusense.ai,student,2026-01-25 00:00:00,Undergraduate,Master Machine Learning and AI engineering,hard,2
+405,Riley Williams,student_405@edusense.ai,student,2026-01-17 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,1
+406,Morgan Smith,student_406@edusense.ai,student,2026-01-19 00:00:00,High School,Build portfolio projects for tech interviews,easy,2
+407,Riley Garcia,student_407@edusense.ai,student,2026-01-14 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,1
+408,Morgan Miller,student_408@edusense.ai,student,2026-01-17 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,0
+409,Taylor Rodriguez,student_409@edusense.ai,student,2026-01-07 00:00:00,Graduate,Transition career into Data Science and AI,hard,3
+410,Pat Garcia,student_410@edusense.ai,student,2026-01-31 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,0
+411,Chris Rodriguez,student_411@edusense.ai,student,2026-01-12 00:00:00,Graduate,Transition career into Data Science and AI,easy,1
+412,Morgan Jones,student_412@edusense.ai,student,2026-01-18 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,3
+413,Reese Jones,student_413@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,3
+414,Riley Garcia,student_414@edusense.ai,student,2026-01-18 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+415,Dakota Hernandez,student_415@edusense.ai,student,2026-01-18 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,medium,1
+416,Reese Gonzalez,student_416@edusense.ai,student,2026-01-05 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,1
+417,Jesse Johnson,student_417@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,1
+418,Riley Brown,student_418@edusense.ai,student,2026-01-07 00:00:00,Graduate,Improve fundamental computer science and math skills,easy,1
+419,Jordan Martinez,student_419@edusense.ai,student,2026-01-24 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+420,Cameron Anderson,student_420@edusense.ai,student,2026-01-17 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,2
+421,Jordan Miller,student_421@edusense.ai,student,2026-01-11 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,2
+422,Reese Williams,student_422@edusense.ai,student,2026-01-01 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,2
+423,Casey Anderson,student_423@edusense.ai,student,2026-01-29 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,0
+424,Morgan Gonzalez,student_424@edusense.ai,student,2026-01-31 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+425,Cameron Smith,student_425@edusense.ai,student,2026-01-30 00:00:00,High School,Build portfolio projects for tech interviews,hard,0
+426,Jesse Lopez,student_426@edusense.ai,student,2026-01-28 00:00:00,High School,Build portfolio projects for tech interviews,medium,1
+427,Casey Wilson,student_427@edusense.ai,student,2026-01-06 00:00:00,High School,Transition career into Data Science and AI,medium,1
+428,Taylor Anderson,student_428@edusense.ai,student,2026-01-24 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,2
+429,Sam Martinez,student_429@edusense.ai,student,2026-01-20 00:00:00,High School,Improve fundamental computer science and math skills,medium,1
+430,Riley Hernandez,student_430@edusense.ai,student,2026-01-18 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,hard,0
+431,Riley Jones,student_431@edusense.ai,student,2026-01-07 00:00:00,High School,Improve fundamental computer science and math skills,easy,0
+432,Jesse Davis,student_432@edusense.ai,student,2026-01-21 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,2
+433,Jesse Garcia,student_433@edusense.ai,student,2026-01-26 00:00:00,Graduate,Build portfolio projects for tech interviews,easy,1
+434,Dakota Wilson,student_434@edusense.ai,student,2026-01-21 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,0
+435,Chris Johnson,student_435@edusense.ai,student,2026-01-13 00:00:00,High School,Build portfolio projects for tech interviews,easy,0
+436,Riley Garcia,student_436@edusense.ai,student,2026-01-30 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,2
+437,Pat Brown,student_437@edusense.ai,student,2026-01-15 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,0
+438,Dakota Lopez,student_438@edusense.ai,student,2026-01-19 00:00:00,High School,Improve fundamental computer science and math skills,hard,2
+439,Chris Lopez,student_439@edusense.ai,student,2026-01-08 00:00:00,High School,Master Machine Learning and AI engineering,medium,2
+440,Sam Williams,student_440@edusense.ai,student,2026-01-13 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,0
+441,Casey Jones,student_441@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,0
+442,Riley Williams,student_442@edusense.ai,student,2026-01-15 00:00:00,Graduate,Transition career into Data Science and AI,hard,3
+443,Avery Anderson,student_443@edusense.ai,student,2026-01-16 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,1
+444,Reese Martinez,student_444@edusense.ai,student,2026-01-28 00:00:00,High School,Transition career into Data Science and AI,hard,1
+445,Jesse Garcia,student_445@edusense.ai,student,2026-01-03 00:00:00,High School,Master Machine Learning and AI engineering,hard,2
+446,Casey Rodriguez,student_446@edusense.ai,student,2026-01-07 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,3
+447,Skyler Rodriguez,student_447@edusense.ai,student,2026-01-15 00:00:00,High School,Build portfolio projects for tech interviews,hard,3
+448,Dakota Davis,student_448@edusense.ai,student,2026-01-03 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,medium,2
+449,Taylor Rodriguez,student_449@edusense.ai,student,2026-01-14 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,1
+450,Riley Hernandez,student_450@edusense.ai,student,2026-01-26 00:00:00,Graduate,Master Machine Learning and AI engineering,medium,0
+451,Sam Wilson,student_451@edusense.ai,student,2026-01-01 00:00:00,Undergraduate,Master Machine Learning and AI engineering,easy,2
+452,Pat Garcia,student_452@edusense.ai,student,2026-01-23 00:00:00,High School,Master Machine Learning and AI engineering,easy,1
+453,Casey Davis,student_453@edusense.ai,student,2026-01-02 00:00:00,Graduate,Transition career into Data Science and AI,easy,1
+454,Reese Williams,student_454@edusense.ai,student,2026-01-25 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,medium,3
+455,Riley Wilson,student_455@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,0
+456,Cameron Hernandez,student_456@edusense.ai,student,2026-01-28 00:00:00,Undergraduate,Improve fundamental computer science and math skills,easy,1
+457,Taylor Rodriguez,student_457@edusense.ai,student,2026-01-13 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,0
+458,Reese Smith,student_458@edusense.ai,student,2026-01-10 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,hard,1
+459,Pat Wilson,student_459@edusense.ai,student,2026-01-08 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,0
+460,Taylor Jones,student_460@edusense.ai,student,2026-01-07 00:00:00,High School,Master Machine Learning and AI engineering,hard,0
+461,Pat Martinez,student_461@edusense.ai,student,2026-01-25 00:00:00,High School,Build portfolio projects for tech interviews,easy,0
+462,Jordan Johnson,student_462@edusense.ai,student,2026-01-20 00:00:00,High School,Transition career into Data Science and AI,hard,1
+463,Cameron Lopez,student_463@edusense.ai,student,2026-01-28 00:00:00,High School,Build portfolio projects for tech interviews,hard,2
+464,Alex Miller,student_464@edusense.ai,student,2026-01-15 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+465,Taylor Rodriguez,student_465@edusense.ai,student,2026-01-10 00:00:00,Undergraduate,Improve fundamental computer science and math skills,hard,3
+466,Dakota Gonzalez,student_466@edusense.ai,student,2026-01-22 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+467,Casey Williams,student_467@edusense.ai,student,2026-01-22 00:00:00,Undergraduate,Transition career into Data Science and AI,medium,1
+468,Sam Smith,student_468@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Transition career into Data Science and AI,hard,2
+469,Riley Smith,student_469@edusense.ai,student,2026-01-12 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,hard,0
+470,Pat Miller,student_470@edusense.ai,student,2026-01-05 00:00:00,Graduate,Transition career into Data Science and AI,easy,3
+471,Reese Rodriguez,student_471@edusense.ai,student,2026-01-16 00:00:00,Undergraduate,Build portfolio projects for tech interviews,medium,0
+472,Skyler Lopez,student_472@edusense.ai,student,2026-01-05 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,3
+473,Pat Miller,student_473@edusense.ai,student,2026-01-18 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,0
+474,Sam Brown,student_474@edusense.ai,student,2026-01-11 00:00:00,High School,Transition career into Data Science and AI,medium,2
+475,Jordan Rodriguez,student_475@edusense.ai,student,2026-01-24 00:00:00,Undergraduate,Master Machine Learning and AI engineering,medium,1
+476,Pat Hernandez,student_476@edusense.ai,student,2026-01-20 00:00:00,High School,Master Machine Learning and AI engineering,easy,3
+477,Reese Gonzalez,student_477@edusense.ai,student,2026-01-19 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,0
+478,Skyler Anderson,student_478@edusense.ai,student,2026-01-11 00:00:00,Graduate,Master Machine Learning and AI engineering,easy,1
+479,Casey Brown,student_479@edusense.ai,student,2026-01-31 00:00:00,High School,Transition career into Data Science and AI,easy,3
+480,Jesse Martinez,student_480@edusense.ai,student,2026-01-23 00:00:00,Undergraduate,Transition career into Data Science and AI,easy,1
+481,Avery Garcia,student_481@edusense.ai,student,2026-01-25 00:00:00,Graduate,Transition career into Data Science and AI,medium,1
+482,Avery Hernandez,student_482@edusense.ai,student,2026-01-12 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,2
+483,Avery Anderson,student_483@edusense.ai,student,2026-01-16 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,hard,1
+484,Riley Gonzalez,student_484@edusense.ai,student,2026-01-27 00:00:00,Graduate,Build portfolio projects for tech interviews,medium,1
+485,Chris Miller,student_485@edusense.ai,student,2026-01-02 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,1
+486,Sam Rodriguez,student_486@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Improve fundamental computer science and math skills,easy,3
+487,Morgan Garcia,student_487@edusense.ai,student,2026-01-08 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,medium,0
+488,Avery Hernandez,student_488@edusense.ai,student,2026-01-31 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,1
+489,Jesse Hernandez,student_489@edusense.ai,student,2026-01-24 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,3
+490,Jesse Gonzalez,student_490@edusense.ai,student,2026-01-12 00:00:00,Undergraduate,Build portfolio projects for tech interviews,hard,2
+491,Avery Davis,student_491@edusense.ai,student,2026-01-06 00:00:00,High School,Master Machine Learning and AI engineering,easy,1
+492,Skyler Hernandez,student_492@edusense.ai,student,2026-01-02 00:00:00,High School,Transition career into Data Science and AI,easy,1
+493,Skyler Hernandez,student_493@edusense.ai,student,2026-01-08 00:00:00,High School,Build portfolio projects for tech interviews,easy,1
+494,Morgan Rodriguez,student_494@edusense.ai,student,2026-01-15 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,0
+495,Cameron Hernandez,student_495@edusense.ai,student,2026-01-30 00:00:00,Self-Taught / Professional,Transition career into Data Science and AI,easy,1
+496,Alex Rodriguez,student_496@edusense.ai,student,2026-01-18 00:00:00,Self-Taught / Professional,Master Machine Learning and AI engineering,easy,1
+497,Avery Lopez,student_497@edusense.ai,student,2026-01-09 00:00:00,Graduate,Master Machine Learning and AI engineering,hard,1
+498,Skyler Lopez,student_498@edusense.ai,student,2026-01-22 00:00:00,Self-Taught / Professional,Build portfolio projects for tech interviews,easy,0
+499,Casey Johnson,student_499@edusense.ai,student,2026-01-17 00:00:00,Undergraduate,Build portfolio projects for tech interviews,easy,3
+500,Dakota Rodriguez,student_500@edusense.ai,student,2026-01-09 00:00:00,Graduate,Improve fundamental computer science and math skills,medium,3
