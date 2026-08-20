@@ -694,9 +694,9 @@ elif active == "recommend":
                 st.divider()
                 st.markdown(f"#### Recommended for Student #{rec_data['student_id']}")
                 for idx, rec in enumerate(rec_data["recommendations"]):
-                    with st.expander(f"#{idx+1} · {rec['topic_name']} ({rec['subject']}) — {rec['recommendation_score']*100:.1f}% match", expanded=(idx == 0)):
-                        st.markdown(f"**Difficulty**: `{rec['difficulty'].title()}` · **Prerequisites Met**: {'✅ Yes' if rec['prerequisites_met'] else '⚠️ No'}")
-                        st.info(f"💡 {rec['explanation']}")
+                    with st.expander(f"#{idx+1} · {rec['topic_name']} ({rec['subject']}) — {rec.get('score', rec.get('recommendation_score', 0)):.1f}% match", expanded=(idx == 0)):
+                        st.markdown(f"**Difficulty**: `{rec['difficulty'].title()}` · **Prerequisites Met**: {'✅ Yes' if rec.get('prerequisite_ready', rec.get('prerequisites_met', True)) else '⚠️ No'}")
+                        st.info(f"💡 {rec.get('reason', rec.get('explanation', ''))}")
             else:
                 st.error(f"API Error ({res.status_code}): {res.text}")
         except Exception as e:
