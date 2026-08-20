@@ -14,7 +14,14 @@ st.set_page_config(
     initial_sidebar_state="expanded",
 )
 
-API_BASE_URL = os.getenv("API_BASE_URL", "http://localhost:8000")
+raw_api_url = os.getenv("API_BASE_URL", "http://localhost:8000").strip().rstrip("/")
+if not raw_api_url.startswith("http://") and not raw_api_url.startswith("https://"):
+    if raw_api_url == "edusense-ai-api":
+        API_BASE_URL = "https://edusense-ai-api.onrender.com"
+    else:
+        API_BASE_URL = f"https://{raw_api_url}"
+else:
+    API_BASE_URL = raw_api_url
 
 # ─── Session-based Navigation ──────────────────────────────────────────────────
 if "active_page" not in st.session_state:

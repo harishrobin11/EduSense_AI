@@ -21,9 +21,6 @@ services:
     startCommand: "streamlit run frontend/main.py --server.port $PORT --server.address 0.0.0.0"
     envVars:
       - key: API_BASE_URL
-        fromService:
-          type: web
-          name: edusense-ai-api
-          property: host
+        value: https://edusense-ai-api.onrender.com
       - key: PYTHON_VERSION
         value: 3.11.0
