@@ -20,3 +20,13 @@ def test_health_endpoint(client):
     assert data["app_name"] == "EduSense AI"
     assert "database" in data
     assert data["database"]["connected"] is True
+
+
+def test_head_requests_for_health_check(client):
+    """Test HEAD HTTP requests on root and health endpoints for cloud health checks."""
+    response_root = client.head("/")
+    assert response_root.status_code == 200
+
+    response_health = client.head("/health")
+    assert response_health.status_code == 200
+

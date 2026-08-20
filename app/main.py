@@ -53,7 +53,7 @@ app.include_router(tutor.router)
 app.include_router(quiz.router)
 
 
-@app.get("/")
+@app.api_route("/", methods=["GET", "HEAD"])
 def root():
     """Root endpoint redirecting to docs or health summary."""
     return {

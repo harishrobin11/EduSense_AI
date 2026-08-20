@@ -9,7 +9,7 @@ from app.schemas.health import HealthResponse, DatabaseHealth
 router = APIRouter(tags=["Health"])
 
 
-@router.get("/health", response_model=HealthResponse, status_code=status.HTTP_200_OK)
+@router.api_route("/health", methods=["GET", "HEAD"], response_model=HealthResponse, status_code=status.HTTP_200_OK)
 def health_check() -> HealthResponse:
     """Check backend service and database health."""
     db_ok = check_db_connection()
