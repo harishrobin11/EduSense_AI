@@ -1,0 +1,29 @@
+services:
+  - type: web
+    name: edusense-ai-api
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements-backend.txt"
+    startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: PYTHON_VERSION
+        value: 3.11.0
+
+  - type: web
+    name: edusense-ai-frontend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: "pip install -r requirements-frontend.txt"
+    startCommand: "streamlit run frontend/main.py --server.port $PORT --server.address 0.0.0.0"
+    envVars:
+      - key: API_BASE_URL
+        fromService:
+          type: web
+          name: edusense-ai-api
+          property: host
+      - key: PYTHON_VERSION
+        value: 3.11.0

@@ -57,14 +57,10 @@ env.bak/
 venv.bak/
 
 # Project specific
-*.db
-*.sqlite3
 .env
 .DS_Store
 
-# ML models and large artifacts
-ml/models/*.pkl
-ml/models/*.pt
+# ML large artifacts (keep .pkl and .pt for deployment)
 ml/models/*.onnx
 
 # IDE files
