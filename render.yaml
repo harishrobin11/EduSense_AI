@@ -4,13 +4,15 @@ services:
     env: python
     region: oregon
     plan: free
-    buildCommand: "pip install -r requirements-backend.txt"
+    buildCommand: "pip install --extra-index-url https://download.pytorch.org/whl/cpu -r requirements-backend.txt"
     startCommand: "uvicorn app.main:app --host 0.0.0.0 --port $PORT"
     envVars:
       - key: APP_ENV
         value: production
       - key: PYTHON_VERSION
         value: 3.11.0
+      - key: PIP_EXTRA_INDEX_URL
+        value: https://download.pytorch.org/whl/cpu
 
   - type: web
     name: edusense-ai-frontend
